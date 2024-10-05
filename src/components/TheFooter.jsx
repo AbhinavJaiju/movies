@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import IconVercel from "./icon/IconVercel";
 import IconTMDB from "./icon/IconTMDB";
 
@@ -9,7 +9,7 @@ const TheFooter = () => {
         <img src="/movies-sm.webp" width="25" height="25" alt="Logo" />
         <div className="text-xl">React Movies</div>
       </div>
-      <div className="flex flex-row gap-2 items-center">
+      {/* <div className="flex flex-row gap-2 items-center">
         <div className="opacity-50 text-sm">Made with</div>
         <a
           href="https://react.dev/"
@@ -19,7 +19,7 @@ const TheFooter = () => {
         >
           <img src="/R.webp" width="100" alt="React logo" />
         </a>
-      </div>
+      </div> */}
 
       <div className="flex items-center text-sm">
         <span className="opacity-50 me-1"> Data Provided by&nbsp;</span>
